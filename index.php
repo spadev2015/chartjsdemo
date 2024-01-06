@@ -30,10 +30,10 @@
 <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Chart.js
-            var data = <?php echo file_get_contents("data/data.json"); ?>;
-            var ctx = document.getElementById('myChart').getContext('2d');
-            var myChart = new Chart(ctx, {
-                type: 'bar', // Change to 'line', 'pie', etc.
+            const data = <?php echo file_get_contents("data/data.json"); ?>;
+            const ctx = document.getElementById('myChart').getContext('2d');
+            const myChart = new Chart(ctx, {
+                type: 'bubble', // Change to 'line', 'pie', etc.
                 data: data,
                 options: {
                     scales: {

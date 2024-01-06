@@ -2,7 +2,15 @@
     "labels": ["January", "February", "March", "April", "May", "June", "July"],
     "datasets": [{
         "label": "Monthly Sales",
-        "data": [10, 20, 30, 40, 50, 60, 70],
+        "data": [{
+             x:100, y:10, r:10},
+            {x:200, y:10, r:10},
+            {x:300, y:30, r:30},
+            {x:400, y:40, r:40},
+            {x:500, y:50, r:50},
+            {x:600, y:60, r:60},
+            {x:700, y:70, r:70}
+        ],
         "backgroundColor": [
             'rgba(255, 99, 132, 0.2)',
             'rgba(54, 162, 235, 0.2)',
